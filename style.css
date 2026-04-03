@@ -5,8 +5,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 html {
@@ -104,7 +103,7 @@ header {
   background-color: #FFFFFF;
   grid-area: 1 / 2 / 2 / 3;
   gap: 1em;
-  padding: 0 5%;
+  padding: 0 8em;
 }
 
 aside {
@@ -120,10 +119,25 @@ main {
 .header-top {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 48px 4fr 48px 48px 1fr;
+  grid-template-columns: 2fr 1fr;
   height: 48px;
   gap: 2em;
   margin-top: 3%;
+}
+
+.top-left {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 48px 4fr;
+  gap: 1em;
+}
+
+.top-right {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 48px 48px 1fr;
+  justify-self: end;
+  gap: 1em;
 }
 
 .avatar {
@@ -155,7 +169,8 @@ main {
   gap: 10%;
 }
 
-.bottom-left, .bottom-right{
+.bottom-left,
+.bottom-right {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
@@ -167,9 +182,16 @@ main {
   gap: 1em;
 }
 
+.bottom-right {
+  grid-template-columns: repeat(3, minmax(50px, 100px));
+  justify-content: center;
+  gap: 1em;
+  justify-self: end;
+}
+
 button {
   height: 48px;
-  width: 80%;
+  width: 100%;
   background-color: #1992d4;
   color: white;
   border: none;
