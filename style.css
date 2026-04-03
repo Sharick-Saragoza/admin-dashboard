@@ -300,7 +300,7 @@ main {
 }
 
 .announcements {
-  padding: 10px;
+  padding: 10px 10px 0 10px;
 }
 
 .announcements-container {
@@ -328,10 +328,10 @@ main {
 }
 
 .trending {
-  padding: 10px;
+  padding: 10px 10px 0 10px;
 }
 
-.trending>.title {
+.trending>.title, .announcements>.title {
   margin-bottom: 10px;
 }
 
