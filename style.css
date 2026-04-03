@@ -298,3 +298,25 @@ main {
   width: 24px;
   height: 24px;
 }
+
+.announcements {
+  padding: 10px;
+}
+.announcements-container {
+  display: grid;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: -1px -1px 5px rgba(56, 56, 56, 0.329);
+  padding: 10px;
+}
+
+.announcement {
+  display: grid;
+  grid-template-rows: 28px 1fr;
+  padding: 10px;
+  border-bottom: rgba(128, 128, 128, 0.274) 0.2px solid;
+}
+
+.announcement:last-child {
+  border-bottom: none;
+}
