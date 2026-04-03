@@ -269,7 +269,7 @@ main {
   display: grid;
   grid-template-columns: repeat(2, minmax(250px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(150px, 200px));
-  gap: 1em;
+  gap: 1.5em;
 }
 
 .project {
@@ -294,7 +294,7 @@ main {
   gap: 10px;
 }
 
-.project-bottom > img {
+.project-bottom>img {
   width: 24px;
   height: 24px;
 }
@@ -318,7 +318,7 @@ main {
   border-bottom: rgba(128, 128, 128, 0.274) 0.2px solid;
 }
 
-.announcement > .title {
+.announcement>.title {
   margin-bottom: 10px;
   height: 100%;
 }
@@ -331,7 +331,7 @@ main {
   padding: 10px;
 }
 
-.trending > .title {
+.trending>.title {
   margin-bottom: 10px;
 }
 
