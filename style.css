@@ -151,6 +151,11 @@ main {
   height: 48px;
 }
 
+.avatar.icon {
+  width: 48px;
+  height: 48px;
+}
+
 .search-bar {
   height: 48px;
   background-color: #E2E8F0;
