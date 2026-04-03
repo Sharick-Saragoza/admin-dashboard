@@ -137,7 +137,7 @@ main {
   grid-auto-flow: column;
   grid-template-columns: 48px 48px 1fr;
   justify-self: end;
-  gap: 1em;
+  gap: 2em;
 }
 
 .avatar {
@@ -185,7 +185,7 @@ main {
 .bottom-right {
   grid-template-columns: repeat(3, minmax(50px, 100px));
   justify-content: center;
-  gap: 1em;
+  gap: 2em;
   justify-self: end;
 }
 
